@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Codnitive_IranianRegions",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License,-version-3-(GPLv3)",
+    "homepage": "",
+    "description": "Adds list of Iranian regions to Magento.",
+    "authors": [
+    {
+        "name": "Hassan Barza",
+        "email": "support@codnitive.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

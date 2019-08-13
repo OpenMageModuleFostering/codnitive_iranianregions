@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Codnitive_IranianRegions</name>
+    <version>1.7.00</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-3.0.html">GNU General Public License, version 3 (GPLv3)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds list of Iranian regions to Magento.</summary>
+    <description>This extension adds Iranian regions list to your Magento store. Regions names for different locales are in Persian (Farsi).</description>
+    <notes>Please note first test all modules in a test store then install theme on your production. Always create a backup of your store, before any extension installation.</notes>
+    <authors><author><name>Hassan Barza</name><user>hbarza</user><email>support@codnitive.com</email></author></authors>
+    <date>2012-05-01</date>
+    <time>22:50:12</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Codnitive_Codall.xml" hash="6e18a95e6783cbdfc9d51c5853265eaa"/><file name="Codnitive_IranianRegions.xml" hash="450e8f33e9ca1c7349898940ff657b27"/></dir></target><target name="magelocal"><dir name="Codnitive"><dir name="Codall"><dir><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Fieldset"><file name="Contact.php" hash="62e20a1f93c1b0394a5b1f1fefe09447"/><file name="ECD.php" hash="b0a8c85e5c2d20f513ca17fc5b58ab35"/><dir name="Extensions"><file name="List.php" hash="b06731682a2f24f6b50f01166c4dc4f2"/></dir><file name="PCD.php" hash="b821a4ed3d705567a9d82fb3910d4b50"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="db05202ae83bf9e4cc4454acb5fd8615"/></dir><dir name="etc"><file name="adminhtml.xml" hash="0bed954bf2a459b1f5d6a25050d770d7"/><file name="config.xml" hash="2b54846594d6ca90381a3b5937bd3443"/><file name="system.xml" hash="287da42ea1c5bdf169365f1b54529cd4"/></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Codnitive_Codall.csv" hash="bea852e5e3c3f17c54d3c21e96115c68"/><file name="Codnitive_IranianRegions.csv" hash="46a7e5e225ee2c41bd543127698e14e3"/></dir><dir name="fa_IR"><file name="Codnitive_Codall.csv" hash="3691ccfe6c605575aace69417351e0f7"/><file name="Codnitive_IranianRegions.csv" hash="a40a359c44df54b5a6cd7972789982c6"/></dir></target><target name="magecommunity"><dir name="Codnitive"><dir><dir name="IranianRegions"><dir name="Helper"><file name="Data.php" hash="c075d7366ddee9b0ba1334ac8c01a835"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9bb40a0e41d6b848a452a600afcf9005"/><file name="config.xml" hash="96f4ae11800a081f2a475172fe68978f"/><file name="system.xml" hash="5cce10d6c19e9ff010ec19a3fe1d75f5"/></dir><dir name="sql"><dir name="iranianregions_setup"><file name="mysql4-install-0.1.0.php" hash="ab801823292199bebbbf5fc6bb82acc8"/><file name="mysql4-upgrade-0.1.0-1.2.0.php" hash="4db25ccf65952c41937f10157497a183"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.9</min><max>6.0.0</max></php></required></dependencies>
+</package>
